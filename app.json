@@ -1,0 +1,30 @@
+﻿{
+  "name": "custompath build vl and vm",
+  "description": "costom path build vl vm",
+  "keywords": [
+    "vl vm"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID, uuidgenerator.net",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/shop2docs/custompathvlandvm",
+  "repository": "https://github.com/shop2docs/custompathvlandvm",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
